@@ -1,2 +1,2 @@
 # StackoverflowApp
-It is an app that demonstrates stackoverflow's basic feature of registering questions with tags and answers, and we utilize Firebase to store data, which means the data is persistent in nature.
+It is an app that demonstrates Stack Overflow's basic features, including registering questions with tags and answers. We utilize Firebase to store data, which means the data is persistent, as seen in Swift programming.
