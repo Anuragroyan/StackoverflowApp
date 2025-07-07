@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5900F7CD2E0EC6BD000C7BE6 /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 5900F7CC2E0EC6BD000C7BE6 /* SQLite */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5900F7AC2E0EC66E000C7BE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5900F7962E0EC66D000C7BE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5900F79D2E0EC66D000C7BE6;
+			remoteInfo = Stackoverflowapp;
+		};
+		5900F7B62E0EC66E000C7BE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5900F7962E0EC66D000C7BE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5900F79D2E0EC66D000C7BE6;
+			remoteInfo = Stackoverflowapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5900F79E2E0EC66D000C7BE6 /* Stackoverflowapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stackoverflowapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5900F7AB2E0EC66E000C7BE6 /* StackoverflowappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackoverflowappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5900F7B52E0EC66E000C7BE6 /* StackoverflowappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackoverflowappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5900F7A02E0EC66D000C7BE6 /* Stackoverflowapp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Stackoverflowapp;
+			sourceTree = "<group>";
+		};
+		5900F7AE2E0EC66E000C7BE6 /* StackoverflowappTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = StackoverflowappTests;
+			sourceTree = "<group>";
+		};
+		5900F7B82E0EC66E000C7BE6 /* StackoverflowappUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = StackoverflowappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5900F79B2E0EC66D000C7BE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5900F7CD2E0EC6BD000C7BE6 /* SQLite in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5900F7A82E0EC66E000C7BE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5900F7B22E0EC66E000C7BE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5900F7952E0EC66D000C7BE6 = {
+			isa = PBXGroup;
+			children = (
+				5900F7A02E0EC66D000C7BE6 /* Stackoverflowapp */,
+				5900F7AE2E0EC66E000C7BE6 /* StackoverflowappTests */,
+				5900F7B82E0EC66E000C7BE6 /* StackoverflowappUITests */,
+				5900F79F2E0EC66D000C7BE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5900F79F2E0EC66D000C7BE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5900F79E2E0EC66D000C7BE6 /* Stackoverflowapp.app */,
+				5900F7AB2E0EC66E000C7BE6 /* StackoverflowappTests.xctest */,
+				5900F7B52E0EC66E000C7BE6 /* StackoverflowappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5900F79D2E0EC66D000C7BE6 /* Stackoverflowapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5900F7BF2E0EC66E000C7BE6 /* Build configuration list for PBXNativeTarget "Stackoverflowapp" */;
+			buildPhases = (
+				5900F79A2E0EC66D000C7BE6 /* Sources */,
+				5900F79B2E0EC66D000C7BE6 /* Frameworks */,
+				5900F79C2E0EC66D000C7BE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5900F7A02E0EC66D000C7BE6 /* Stackoverflowapp */,
+			);
+			name = Stackoverflowapp;
+			packageProductDependencies = (
+				5900F7CC2E0EC6BD000C7BE6 /* SQLite */,
+			);
+			productName = Stackoverflowapp;
+			productReference = 5900F79E2E0EC66D000C7BE6 /* Stackoverflowapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5900F7AA2E0EC66E000C7BE6 /* StackoverflowappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5900F7C22E0EC66E000C7BE6 /* Build configuration list for PBXNativeTarget "StackoverflowappTests" */;
+			buildPhases = (
+				5900F7A72E0EC66E000C7BE6 /* Sources */,
+				5900F7A82E0EC66E000C7BE6 /* Frameworks */,
+				5900F7A92E0EC66E000C7BE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5900F7AD2E0EC66E000C7BE6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5900F7AE2E0EC66E000C7BE6 /* StackoverflowappTests */,
+			);
+			name = StackoverflowappTests;
+			packageProductDependencies = (
+			);
+			productName = StackoverflowappTests;
+			productReference = 5900F7AB2E0EC66E000C7BE6 /* StackoverflowappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5900F7B42E0EC66E000C7BE6 /* StackoverflowappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5900F7C52E0EC66E000C7BE6 /* Build configuration list for PBXNativeTarget "StackoverflowappUITests" */;
+			buildPhases = (
+				5900F7B12E0EC66E000C7BE6 /* Sources */,
+				5900F7B22E0EC66E000C7BE6 /* Frameworks */,
+				5900F7B32E0EC66E000C7BE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5900F7B72E0EC66E000C7BE6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5900F7B82E0EC66E000C7BE6 /* StackoverflowappUITests */,
+			);
+			name = StackoverflowappUITests;
+			packageProductDependencies = (
+			);
+			productName = StackoverflowappUITests;
+			productReference = 5900F7B52E0EC66E000C7BE6 /* StackoverflowappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5900F7962E0EC66D000C7BE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					5900F79D2E0EC66D000C7BE6 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					5900F7AA2E0EC66E000C7BE6 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 5900F79D2E0EC66D000C7BE6;
+					};
+					5900F7B42E0EC66E000C7BE6 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 5900F79D2E0EC66D000C7BE6;
+					};
+				};
+			};
+			buildConfigurationList = 5900F7992E0EC66D000C7BE6 /* Build configuration list for PBXProject "Stackoverflowapp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5900F7952E0EC66D000C7BE6;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5900F7CB2E0EC6BD000C7BE6 /* XCRemoteSwiftPackageReference "SQLite" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5900F79F2E0EC66D000C7BE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5900F79D2E0EC66D000C7BE6 /* Stackoverflowapp */,
+				5900F7AA2E0EC66E000C7BE6 /* StackoverflowappTests */,
+				5900F7B42E0EC66E000C7BE6 /* StackoverflowappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5900F79C2E0EC66D000C7BE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5900F7A92E0EC66E000C7BE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5900F7B32E0EC66E000C7BE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5900F79A2E0EC66D000C7BE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5900F7A72E0EC66E000C7BE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5900F7B12E0EC66E000C7BE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5900F7AD2E0EC66E000C7BE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5900F79D2E0EC66D000C7BE6 /* Stackoverflowapp */;
+			targetProxy = 5900F7AC2E0EC66E000C7BE6 /* PBXContainerItemProxy */;
+		};
+		5900F7B72E0EC66E000C7BE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5900F79D2E0EC66D000C7BE6 /* Stackoverflowapp */;
+			targetProxy = 5900F7B62E0EC66E000C7BE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5900F7BD2E0EC66E000C7BE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5900F7BE2E0EC66E000C7BE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5900F7C02E0EC66E000C7BE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.royan.myiosapps.StackOverFlowApp.Stackoverflowapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5900F7C12E0EC66E000C7BE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.royan.myiosapps.StackOverFlowApp.Stackoverflowapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5900F7C32E0EC66E000C7BE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.royan.myiosapps.StackOverFlowApp.StackoverflowappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stackoverflowapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Stackoverflowapp";
+			};
+			name = Debug;
+		};
+		5900F7C42E0EC66E000C7BE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.royan.myiosapps.StackOverFlowApp.StackoverflowappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stackoverflowapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Stackoverflowapp";
+			};
+			name = Release;
+		};
+		5900F7C62E0EC66E000C7BE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.royan.myiosapps.StackOverFlowApp.StackoverflowappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stackoverflowapp;
+			};
+			name = Debug;
+		};
+		5900F7C72E0EC66E000C7BE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.royan.myiosapps.StackOverFlowApp.StackoverflowappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stackoverflowapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5900F7992E0EC66D000C7BE6 /* Build configuration list for PBXProject "Stackoverflowapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5900F7BD2E0EC66E000C7BE6 /* Debug */,
+				5900F7BE2E0EC66E000C7BE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5900F7BF2E0EC66E000C7BE6 /* Build configuration list for PBXNativeTarget "Stackoverflowapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5900F7C02E0EC66E000C7BE6 /* Debug */,
+				5900F7C12E0EC66E000C7BE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5900F7C22E0EC66E000C7BE6 /* Build configuration list for PBXNativeTarget "StackoverflowappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5900F7C32E0EC66E000C7BE6 /* Debug */,
+				5900F7C42E0EC66E000C7BE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5900F7C52E0EC66E000C7BE6 /* Build configuration list for PBXNativeTarget "StackoverflowappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5900F7C62E0EC66E000C7BE6 /* Debug */,
+				5900F7C72E0EC66E000C7BE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5900F7CB2E0EC6BD000C7BE6 /* XCRemoteSwiftPackageReference "SQLite" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.15.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5900F7CC2E0EC6BD000C7BE6 /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5900F7CB2E0EC6BD000C7BE6 /* XCRemoteSwiftPackageReference "SQLite" */;
+			productName = SQLite;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5900F7962E0EC66D000C7BE6 /* Project object */;
+}
